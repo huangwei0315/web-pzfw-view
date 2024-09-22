@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [vue()],
   base:'/web-pzfw-view/',
   build: {
-    outDir: 'pzfw'
+    outDir: 'docs'
   }
 })
