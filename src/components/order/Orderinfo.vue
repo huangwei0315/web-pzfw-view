@@ -29,7 +29,7 @@ function onOrderButtonClick (e: Event) {
   else if(orderstate.patient !== orderstate.patientdefalut) agreeflag.value = false
   else if(orderstate.hospital !== orderstate.hospitaldefault) agreeflag.value = false
   else if(orderstate.department !== orderstate.departmentdefault) agreeflag.value = false
-  else if(orderstate.datetime !== orderstate.datetimedefualt) agreeflag.value = false
+  // else if(orderstate.datetime !== orderstate.datetimedefualt) agreeflag.value = false
   else if(orderstate.accompanyingphysician !== orderstate.accompanyingphysiciandefault) agreeflag.value = false
 
   if(agreevalue.value) {
