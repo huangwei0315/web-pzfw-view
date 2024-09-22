@@ -309,7 +309,7 @@ function onClose () {
       <a @click="showMessage2 = true">《服务条款同意书》</a>
     </h3>
     <Alert
-        message="请仔细阅读并同意陪诊服务相关个人《个人隐私保护政策》和《服务条款同意书》"
+        message="请仔细阅读并同意陪诊服务相关《个人隐私保护政策》和《服务条款同意书》"
         type="warning"
         closable
         @close="onClose"
